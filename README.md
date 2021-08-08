@@ -1,1 +1,6 @@
-<h1>ASEEID PROJECT</h1>
+# ASEEID PROJECT
+####  Installation for Linux
+```bash
+python3 -m venv env
+pip install -r requirements.txt
+```
