@@ -27,4 +27,7 @@ UWAGA: proszę wybrać jeden z podpunktów a), b) lub c)
 ```bash
 python3 -m venv env
 pip install -r requirements.txt
+
+sudo chmod +x get_data.sh
+./get_data.sh
 ```
