@@ -7,9 +7,9 @@ Rok 2020 / Maj
 Rok 2019 / Maj
 
 
-- [ ]Wykryj anomalie pomiędzy (pick-up and drop-off dates/times) a przebytym dystansem. Z wykorzystaniem metody grupowania według k-średnich znajdź i zinterpretuj wyniki.
-- [ ]Skoreluj informacje dotyczące typu płatności a ilości przewożonych pasażerów
-- [ ]Wylicz średnią prędkość taksówki na podstawie informacji na temat czasu (pick-up and drop-off dates/times) oraz przebytej odległości (trip distances)
+- [ ] Wykryj anomalie pomiędzy (pick-up and drop-off dates/times) a przebytym dystansem. Z wykorzystaniem metody grupowania według k-średnich znajdź i zinterpretuj wyniki.
+- [ ] Skoreluj informacje dotyczące typu płatności a ilości przewożonych pasażerów
+- [ ] Wylicz średnią prędkość taksówki na podstawie informacji na temat czasu (pick-up and drop-off dates/times) oraz przebytej odległości (trip distances)
 
 Zbiór danych:
 https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page 
