@@ -1,8 +1,11 @@
 from pyspark.sql import SparkSession, functions as F, types
+from matplotlib import pyplot as plt
+
 
 def printResults(df):
     print(df.groupBy().avg("Velocity").collect()[0])
     print(df.agg({"Velocity": "max"}).collect()[0])
+
 
 def init():
     spark = SparkSession.builder.master("local").appName("MyApp").getOrCreate()
@@ -34,7 +37,7 @@ def init():
     df = df_green.union(df_yellow)
 
 
-    time_diff = (F.unix_timestamp("drop_time") - (F.unix_timestamp("pickup_time")).cast(types.DoubleType())) / 3600
+    time_diff = (F.unix_timestamp("drop_time") - F.unix_timestamp("pickup_time")).cast(types.DoubleType()) / 3600
 
     df = df.withColumn("Duration", time_diff)
 
