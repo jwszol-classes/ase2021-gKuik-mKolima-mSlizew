@@ -1,6 +1,4 @@
 from pyspark.sql import SparkSession, functions as F, types
-from matplotlib import pyplot as plt
-
 
 def printResults(df):
     print(df.groupBy().avg("Velocity").collect()[0])
@@ -13,7 +11,7 @@ def init():
     df_green = (
         spark.read.option("delimiter", ",")
         .csv(
-            "./dataset/green*.csv",
+            "./dataset/green_tripdata_2020-04.csv",
             header=True,
         )
         .select("lpep_pickup_datetime", "lpep_dropoff_datetime", "trip_distance")
