@@ -23,7 +23,7 @@ Sprawozdanie projektu należy zapisać w pliku README.md
 UWAGA: proszę wybrać jeden z podpunktów a), b) lub c) 
 
 
-### Installation for Linux
+### Installation for Linux (for local testing)
 ```bash
 python3 -m venv env
 pip install -r requirements.txt
