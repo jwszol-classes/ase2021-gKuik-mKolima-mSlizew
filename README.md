@@ -32,4 +32,5 @@ sudo chmod +x get_data.sh
 ./get_data.sh
 ```
 
-![ASEREHE](Screenshot from 2021-09-20 19-29-38.png)
+![ASEREHE](photos/img1.png)
+![HAEHE](photos/img2.png)
