@@ -23,7 +23,7 @@ Sprawozdanie projektu należy zapisać w pliku README.md
 UWAGA: proszę wybrać jeden z podpunktów a), b) lub c) 
 
 
-###  Installation for Linux
+### Installation for Linux
 ```bash
 python3 -m venv env
 pip install -r requirements.txt
@@ -31,6 +31,11 @@ pip install -r requirements.txt
 sudo chmod +x get_data.sh
 ./get_data.sh
 ```
+### Used stack
+  - S3 for dataset purposes
+  - EC2 running linux
+  - Amazon EMR with ApacheSpark 
+  - Python3 with PySpark
 
 ### Research results
 <p>Average car speeds monthly and daily.</p>
