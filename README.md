@@ -37,6 +37,13 @@ sudo chmod +x get_data.sh
   - Amazon EMR with ApacheSpark 
   - Python3 with PySpark
 
+### Cluster configuration
+  - Release label: emr-5.32.0
+
+  - Hadoop distribution: Amazon 2.10.1
+
+  - Aplications: Hive 2.3.7, Pig 0.17.0, Hue 4.8.0, JupyterEnterpriseGateway 2.1.0, Livy 0.7.0, Spark 2.4.7
+
 ### Research results
 <p>Average car speeds monthly and daily.</p>
 
