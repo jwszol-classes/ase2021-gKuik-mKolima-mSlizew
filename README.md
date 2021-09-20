@@ -32,5 +32,9 @@ sudo chmod +x get_data.sh
 ./get_data.sh
 ```
 
+### Research results
+<p>Average car speeds monthly and daily.</p>
+
 ![ASEREHE](photos/img1.png)
+
 ![HAEHE](photos/img2.png)
