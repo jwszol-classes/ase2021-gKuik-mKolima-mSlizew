@@ -31,3 +31,5 @@ pip install -r requirements.txt
 sudo chmod +x get_data.sh
 ./get_data.sh
 ```
+
+![ASEREHE](Screenshot from 2021-09-20 19-29-38.png)
